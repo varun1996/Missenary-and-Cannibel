@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp Page</title>
+</head>
+<body>
+<div style ="margin:0px; border:20px solid lightgray; height:600px">
+	<div style = "margin:10% auto; padding:auto; width:50%; height:300px">
+	<form method="post" action="http://localhost:8081/singup" style="font-size:30px; margin:5% 0%; 
+	width:50%" enctype="multipart/form-data">
+
+	
+	<pre>
+  Email : <input style="width:80%; height:30px; font-size:20px;  " type="email" name="email" required> 
+  	  <span style="color:red;font-size: 20px"><%= drinks %> </span>
+  Name  : <input style="width:80%; height:30px; font-size:20px;" type="text" name="name" required> 
+
+Password: <input style="width:80%; height:30px; font-size:20px;" type="password" name="password" required>
+  Image : <input type="file" name="image">
+</pre>
+<input type="submit" name="SignUp" style="font-size:30px; width:80%; margin-left:60%; ">
+	</form>	
+	</div>
+</div>
+</body>
+</html>

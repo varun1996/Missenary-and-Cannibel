@@ -1,0 +1,127 @@
+body {
+	margin:0;
+	padding:0;
+	
+	
+	overflow: hidden;
+}
+#main {
+	width:100%;
+	background-image: url('back3.jpg');
+	background-size: 100% 300px;
+	background-repeat: no-repeat;
+	background-blend-mode: lighten; 
+	
+	height:650px;
+	margin:0;
+	padding:0;
+}
+
+#left {
+	width:30%;
+
+	height:650px;
+	float:left;
+}
+
+#middle{
+	width:40%;
+
+	height:650px;
+	float:left;
+
+}
+#right {
+
+	width:30%;
+	height:650px;
+	float:left;
+
+}
+
+.cannibel {
+	background-image:url('cannibel.png');
+	background-size: cover;
+	margin:5px 5px 0px 5px;
+	height:65px;
+	width:35px;
+	float:left;
+}
+
+ .mission {
+ 	background-image: url('mission1.png');
+ 	background-size: cover;
+ 	margin:5px 5px 0px 5px;
+ 	height:65px;
+ 	width:35px;
+ 	float:left;
+ }
+
+ .pos {
+ 	position:absolute;
+ 	top:53%;
+ 	margin-left:5%;
+ 	
+ }
+
+ .platform {
+ 	position:absolute;
+ 	top:63%;
+ 	background-image: url('leftblock.png');
+	background-size:cover;
+ 	height:36%;
+ 	width:30%;
+ 	
+ }
+
+ #river {
+ 	position:absolute;
+ 	top:67.5%;
+ 	background-image: url('river1.jpg');
+ 	background-size: cover;
+ 	height:32%;
+ 	width:40%;
+ 	z-index:2;
+ 	opacity: 0.5; 
+ }
+
+ #move {
+ 	position:absolute;
+ 	top:45%;
+ 	height:23%;
+ 	width:125px;
+ 	border:0px solid black;
+ 	margin:10px;
+ 	
+ }
+
+ #passenger {
+ 	position:absolute;
+ 	border:0px solid black;
+ 	height:50%;
+ 	width:125px;
+ 	margin:0px;
+
+    }
+
+ #boat {
+ 	position:absolute;
+ 	top:48%;
+ 	height:50%;
+ 	width:125px;
+
+ 	background-image: url('boat.png');
+ 	background-size:125px 125px;
+
+ }
+#heading1 {
+	position: absolute;
+	font-size:100px;
+	background-color:blue;
+	text-align:center;
+	display:block;
+	margin:auto;
+	top:30%;
+	width:100%;
+}
+
